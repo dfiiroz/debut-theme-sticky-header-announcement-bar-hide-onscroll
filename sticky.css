@@ -1,0 +1,25 @@
+#SearchDrawer {
+  z-index:1001;
+}
+
+.site-header {
+  position: fixed;
+  z-index:1000;
+  left:0;
+  right:0;
+  -webkit-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -moz-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -ms-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  -o-box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+  box-shadow:0px 2px 4px 0px rgba(0,0,0,.1);
+}
+
+#PageContainer {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 749px) {
+#PageContainer {
+  padding-top: 70px;
+}
+}
